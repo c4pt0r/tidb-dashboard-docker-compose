@@ -17,3 +17,7 @@ interval = "15s"
 # prometheus pushgateway address, leaves it empty will disable prometheus.
 address = "localhost:9091"
 ```
+
+
+* Metrics data will store outside the container, default path: ./data
+* Pushgateway addr is localhost:9091, Grafana dashboard endpoint is localhost:3000, feel free to change it in docker-compose file.
