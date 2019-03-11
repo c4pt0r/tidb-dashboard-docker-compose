@@ -1,4 +1,4 @@
-# tidb-dashboard-docker-compse
+# tidb-dashboard-docker-compose
 Docker-compose scripts for TiDB dashboard components (prometheus, grafana, pushgateway)
 
 It will export pushgateway on port 9091
